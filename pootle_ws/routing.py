@@ -1,6 +1,7 @@
 from channels.routing import route
 
+from .consumers import ws_message
 
 channel_routing = [
-    route("ws.socket", "pootle_ws.consumers.ws_message"),
+    route("websocket.receive", ws_message),
 ]
