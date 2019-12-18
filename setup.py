@@ -30,5 +30,5 @@ setup(
     ],
     keywords='pootle filesystem plugins',
     packages=find_packages(exclude=['contrib', 'docs', 'tests*']),
-    install_requires=['pootle', "channels==2.3.1"],
+    install_requires=['pootle', "channels==2.4.0"],
 )
